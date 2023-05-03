@@ -15,5 +15,6 @@ public class Test1
 		t.setDatapath("src\\test\\resources");//which consists of trained data file                            
 		String x=t.doOCR(f); //OCR on given image with the help of "eng.traineddata"
 		System.out.println(x);
+		System.out.println(x);
 	}
 }
