@@ -58,6 +58,7 @@ public class Test2
 			String y=x.substring(x.length()-8);
 			y=y.replaceAll(" ","");
 			driver.findElement(By.name("nlpAnswer")).sendKeys(y);
+			System.out.println("Executed");
 		}
 	}
 }
